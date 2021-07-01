@@ -7,48 +7,89 @@
 
 <body>
 
-    <div id=outer>
-        <input type="text" id='display' disabled>
+    <div id=outer style="background-color: lightseagreen; display: none;">
+        <button onclick="onToggleClick()"
+            style="height: 4%; width: 10%; position: relative; float: right; margin-right:7%; "
+            class="bluebutton">Go</button>
+        <input type="text" id='display' class="display">
         <br>
         <div class="inner"><button id="Rad" disabled>Rad</button></div>
-        <div class="inner"><button id="Deg"  disabled >Deg</button></div>
-        <div class="inner"><button id="x!"  disabled>x!</button></div>
-        <div class="inner"><button id="("  disabled>(</button></div>
-        <div class="inner"><button id=")"  disabled>)</button></div>
-        <div class="inner"><button id="%"  disabled>%</button></div>
+        <div class="inner"><button id="Deg" disabled>Deg</button></div>
+        <div class="inner"><button id="x!" disabled>x!</button></div>
+        <div class="inner"><button id="(" disabled>(</button></div>
+        <div class="inner"><button id=")" disabled>)</button></div>
+        <div class="inner"><button id="%" disabled>%</button></div>
         <div class="inner"><button id="CE" value="C">CE</button></div>
         <br>
-        <div class="inner"><button  disabled>lnv</button></div>
-        <div class="inner"><button  disabled>sin</button></div>
-        <div class="inner"><button  disabled>ln</button></div>
+        <div class="inner"><button disabled>lnv</button></div>
+        <div class="inner"><button disabled>sin</button></div>
+        <div class="inner"><button disabled>ln</button></div>
         <div class="inner"><button value="7" id="7">7</button></div>
         <div class="inner"><button value="8" id="8">8</button></div>
         <div class="inner"><button value="9" id="9">9</button></div>
         <div class="inner"><button value="/" id="/">÷</button></div>
         <br>
-        <div class="inner"><button  disabled>π</button></div>
-        <div class="inner"><button  disabled>cos</button></div>
-        <div class="inner"><button disabled>  log</button></div>
+        <div class="inner"><button disabled>π</button></div>
+        <div class="inner"><button disabled>cos</button></div>
+        <div class="inner"><button disabled> log</button></div>
         <div class="inner"><button value="4" id="4">4</button></div>
         <div class="inner"><button value="5" id="5">5</button></div>
         <div class="inner"><button value="6" id="6">6</button></div>
         <div class="inner"><button value="*" id="*">×</button></div>
         <br>
-        <div class="inner"><button  disabled>e</button></div>
-        <div class="inner"><button  disabled>tan</button></div>
-        <div class="inner"><button  disabled>√</button></div>
+        <div class="inner"><button disabled>e</button></div>
+        <div class="inner"><button disabled>tan</button></div>
+        <div class="inner"><button disabled>√</button></div>
         <div class="inner"><button value="1" id="1">1</button></div>
         <div class="inner"><button value="2" id="2">2</button></div>
         <div class="inner"><button value="3" id="3">3</button></div>
         <div class="inner"><button value="-" id="-">-</button></div>
         <br>
-        <div class="inner"><button  disabled>Ans</button></div>
-        <div class="inner"><button  disabled>EXP</button></div>
-        <div class="inner"><button  disabled>x^y</button></div>
-        <div class="inner"><button value="0"  id="0">0</button></div>
+        <div class="inner"><button disabled>Ans</button></div>
+        <div class="inner"><button disabled>EXP</button></div>
+        <div class="inner"><button disabled>x^y</button></div>
+        <div class="inner"><button value="0" id="0">0</button></div>
         <div class="inner"><button value="." id=".">.</button></div>
-        <div class="inner"><button value="=" style="background-color:royalblue;color:white">=</button></div>
+        <div class="inner"><button value="=" class="bluebutton">=</button></div>
         <div class="inner"><button value="+" id="+">+</button></div>
+    </div>
+
+    <div id=simpleouter>
+        <button onclick="onToggleClick()"
+            style="height: 4%; width: 15%; position: relative; float: right; margin-right:7%; "
+            class="bluebutton"
+            >Go</button>
+        <div style="display: flex; flex-direction:row;  margin-top: 5px;">
+            <button id="CE" value="C"
+                style="height: auto;width:20%; margin-left: 6%;  border-radius: 25px; "
+                class="blackbutton">C</button>
+            <input type="text" id='simpledisplay' class="display" disabled>
+        </div>
+
+        <br>
+        <div class="simpleinner"><button value="7" id="7" class="blackbutton">7</button></div>
+        <div class="simpleinner"><button value="8" id="8" class="blackbutton">8</button></div>
+        <div class="simpleinner"><button value="9" id="9" class="blackbutton">9</button></div>
+        <div class="simpleinner"><button value="/" id="/" class="bluebutton">÷</button>
+        </div>
+        <br>
+
+        <div class="simpleinner"><button value="4" id="4" class="blackbutton">4</button></div>
+        <div class="simpleinner"><button value="5" id="5" class="blackbutton">5</button></div>
+        <div class="simpleinner"><button value="6" id="6" class="blackbutton">6</button></div>
+        <div class="simpleinner"><button value="*" id="*" class="bluebutton">×</button></div>
+        <br>
+
+        <div class="simpleinner"><button value="1" id="1" class="blackbutton">1</button></div>
+        <div class="simpleinner"><button value="2" id="2" class="blackbutton">2</button></div>
+        <div class="simpleinner"><button value="3" id="3" class="blackbutton">3</button></div>
+        <div class="simpleinner"><button value="-" id="-" class="bluebutton">-</button></div>
+        <br>
+
+        <div class="simpleinner"><button value="0" id="0" class="blackbutton">0</button></div>
+        <div class="simpleinner"><button value="." id="." class="bluebutton">.</button></div>
+        <div class="simpleinner"><button value="=" class="bluebutton">=</button></div>
+        <div class="simpleinner"><button value="+" id="+" class="bluebutton">+</button></div>
     </div>
 
     <script type="text/javascript" src="./calculator.js"></script>

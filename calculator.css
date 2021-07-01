@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    background-color: lightblue;
   }
 button{
   width:100%;
@@ -16,6 +17,17 @@ button{
   font-size: auto;
   margin: 4px;
   
+}
+.blackbutton{
+  background-color:black;
+   color:white;
+}
+button:hover{
+  background-color: grey;
+}
+.bluebutton{
+  background-color:royalblue;
+   color:white;
 }
 
 #outer
@@ -34,12 +46,38 @@ button{
     height:8%; 
     border: solid royalblue 1px;
     border-radius: 20px;
- margin-bottom: 5px;
+     margin-bottom: 5px;
     font-size: xx-large;
     padding-left: 3%;
 }
 .inner
 {  
     width:12%;
+    display: inline-block;
+}
+
+#simpleouter
+{
+    padding-top: 15px;
+  background-color: white;
+    border: solid white 2px;
+    width:20%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: -10px;
+  
+}
+#simpledisplay{
+    background-color: pink;
+ position: relative;
+    width:68%;
+    height:2%; 
+   border-radius: 10px;
+    font-size: xx-large;
+}
+.simpleinner
+{  
+    width:20%;
     display: inline-block;
 }
