@@ -2,7 +2,7 @@
 // select all the buttons
 const buttons = document.querySelectorAll('button');
 var display;
-display = document.getElementById("display");
+display = document.getElementById("simpledisplay");
 buttons.forEach(function (button) {
   button.addEventListener('click', calculate);
 });
