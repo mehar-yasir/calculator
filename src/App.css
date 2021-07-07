@@ -1,132 +1,132 @@
 
 button{
-width:90%;
-height:2.5em;
-  color:black;
-  background-color:lightgray;
-  border: none;
-  border-radius: 5px;
-  font-size: auto;
-  margin: 5px
-
-  
-}
-.cbutton{
-    height:2.8em;
-    background-color:black;
-    color:white;
-}
-
-.blackbutton{
-  background-color:black;
-   color:white;
-}
-button:hover{
-  background-color: grey;
-}
-.bluebutton{
-  background-color:royalblue;
-   color:white;
-}
-.toggle{
-    height: 2.5em; 
-    width: 10%; 
-    position: relative; 
-    float: right; 
-    margin-right:7%;
-    background-color: royalblue;
-    color: white;
-}
-#outer
-{
-    display: block;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: solid black 2px;
-    width:30%;
-    height:50%;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgb(148, 210, 230);
-    padding-bottom: 30px;
-}
-#display{
-    width:100%;
-    height:8%; 
-    border: solid royalblue 1px;
-    border-radius: 20px;
-     margin-bottom: 5px;
-    font-size: xx-large;
-    padding-left: 3%;
-}
-.inner
-{  
-  width:14%;
- display: inline-block;
- align-content: space-around;
-}
-.header{
-    display: inline-block;
+    width:90%;
+    height:2.5em;
+      color:black;
+      background-color:lightgray;
+      border: none;
+      border-radius: 5px;
+      font-size: auto;
+      margin: 5px
     
-}
-#simpleouter
-{
-    display: block;
-    padding-top: 15px;
-  background-color: white;
-    border: solid white 2px;
-    width:15%;
-    text-align: center;
-    border-radius: 10px;
-    padding: 5px;
-  
-}
-#simpledisplay{
-    background-color: pink;
- position: relative;
-    width:100%;
-    height:rem; 
-   border-radius: 10px;
-    font-size: xx-large;
-    margin-left: 5px;
-}
-.simpleinner
-{  
-    width:25%;
-    display: inline-block;
-}
-@media screen and (max-width: 900px) {
-   button{
-font-size: x-small;
-padding:0;
-   }
-   .toggle{
-    height: 2em; 
-   
-}
-
-#simpledisplay{
-   height:2.5rem;
-}
-.cbutton{
-    height: 2.5em;
-}
-  }
-  @media screen and (max-width: 700px) {
-    button{
- font-size: xx-small;
- padding:0;
- height:2em;
- 
+      
+    }
+    .cbutton{
+        height:2.8em;
+        background-color:black;
+        color:white;
+    }
+    
+    .blackbutton{
+      background-color:black;
+       color:white;
+    }
+    button:hover{
+      background-color: grey;
+    }
+    .bluebutton{
+      background-color:royalblue;
+       color:white;
+    }
+    .toggle{
+        height: 2.5em; 
+        width: 10%; 
+        position: relative; 
+        float: right; 
+        margin-right:7%;
+        background-color: royalblue;
+        color: white;
+    }
+    #outer
+    {
+        display: block;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: solid black 2px;
+        width:30%;
+        height:50%;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgb(148, 210, 230);
+        padding-bottom: 30px;
     }
     #display{
-        height:1em;
+        width:100%;
+        height:8%; 
+        border: solid royalblue 1px;
+        border-radius: 20px;
+         margin-bottom: 5px;
+        font-size: xx-large;
+        padding-left: 3%;
+    }
+    .inner
+    {  
+      width:14%;
+     display: inline-block;
+     align-content: space-around;
+    }
+    .header{
+        display: inline-block;
+        
+    }
+    #simpleouter
+    {
+        display: block;
+        padding-top: 15px;
+      background-color: white;
+        border: solid white 2px;
+        width:15%;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px;
+      
     }
     #simpledisplay{
-        height:2rem;
-     }
-     .cbutton{
-        height: 2em;
+        background-color: pink;
+     position: relative;
+        width:100%;
+        height:rem; 
+       border-radius: 10px;
+        font-size: xx-large;
+        margin-left: 5px;
     }
-   }
+    .simpleinner
+    {  
+        width:25%;
+        display: inline-block;
+    }
+    @media screen and (max-width: 900px) {
+       button{
+    font-size: x-small;
+    padding:0;
+       }
+       .toggle{
+        height: 2em; 
+       
+    }
+    
+    #simpledisplay{
+       height:2.5rem;
+    }
+    .cbutton{
+        height: 2.5em;
+    }
+      }
+      @media screen and (max-width: 700px) {
+        button{
+     font-size: xx-small;
+     padding:0;
+     height:2em;
+     
+        }
+        #display{
+            height:1em;
+        }
+        #simpledisplay{
+            height:2rem;
+         }
+         .cbutton{
+            height: 2em;
+        }
+       }
