@@ -1,4 +1,4 @@
-# calculator
+# calculator by yasir
 Standard and scientific calculator implemented using DOM.
 Standard Calculator functionality which offers basic operations and evaluates commands immediately as they are entered.
 Scientific Calculator functionality which offers expanded operations and evaluates commands using order of operations.
