@@ -1,6 +1,6 @@
-# calculator by using DOM
-Standard and scientific calculator implemented using DOM.
-Standard Calculator functionality which offers basic operations and evaluates commands immediately as they are entered.
-Scientific Calculator functionality which offers expanded operations and evaluates commands using order of operations.
-Programmer Calculator functionality which offers common mathematical operations for developers including conversion between common bases.
+# calculator-dom-yasir
+Standard and scientific calculator implemented using DOM. 
+
 It has a toggle button which toggle between standard and scientific calculator.
+
+<h2> Link of Apllication https://clever-lamarr-5788b4.netlify.app/ </h2>
