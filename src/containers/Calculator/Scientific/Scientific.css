@@ -1,0 +1,128 @@
+button {
+  width           : 90%;
+  height          : 2.5em;
+  color           : black;
+  background-color: lightgray;
+  border          : none;
+  border-radius   : 5px;
+  font-size       : auto;
+  margin          : 5px
+}
+
+.darkbutton {
+  color           : white;
+  background-color: rgb(110, 110, 110);
+}
+
+button:hover {
+  background-color: grey;
+}
+
+.bluebutton {
+  background-color: royalblue;
+  color           : white;
+}
+
+.darktoggle {
+  height          : 2.5em;
+  width           : 10%;
+  position        : relative;
+  float           : right;
+  margin-right    : 7%;
+  background-color: rgb(110, 110, 110);
+  color           : white;
+}
+
+.toggle {
+  height          : 2.5em;
+  width           : 10%;
+  position        : relative;
+  float           : right;
+  margin-right    : 7%;
+  background-color: royalblue;
+  color           : white;
+}
+
+.outer {
+  display         : block;
+  padding-top     : 15px;
+  padding-bottom  : 15px;
+  width           : 50%;
+  height          : 50%;
+  text-align      : center;
+  padding         : 10px;
+  background-color: white;
+  padding-bottom  : 30px;
+  border          : solid black 2px;
+  border-radius   : 10px;
+
+}
+
+.display {
+  width        : 95%;
+  height       : 50px;
+  margin-bottom: 5px;
+  font-size    : x-large;
+  padding-right: 3%;
+  border-radius: 10px;
+  border       : solid royalblue 1px;
+  text-align   : right;
+}
+
+.scdarkdisplay {
+  width           : 95%;
+  height          : 50px;
+  margin-bottom   : 5px;
+  font-size       : xx-large;
+  padding-right   : 3%;
+  border-radius   : 10px;
+  text-align      : right;
+  background-color: rgb(0, 0, 0, .2);
+  border          : solid black 1px;
+  color           : white;
+}
+
+.inner {
+  width        : 14%;
+  display      : inline-block;
+  align-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+  button {
+    font-size: x-small;
+    padding  : 0;
+  }
+
+  .toggle {
+    height: 2em;
+
+  }
+
+  .display {
+    font-size: medium;
+  }
+
+  .darkdisplay {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  button {
+    font-size: xx-small;
+    padding  : 0;
+    height   : 2em;
+
+  }
+
+  .display {
+    height   : 2em;
+    font-size: small;
+  }
+
+  .darkdisplay {
+    font-size: small;
+    height   : 2em;
+  }
+}
